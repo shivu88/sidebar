@@ -151,4 +151,4 @@
                     t.additionalMarginBottom = parseInt(t.additionalMarginBottom) || 0,
                     o(t, this)
                 }
-            }(jQuery);
+            };
