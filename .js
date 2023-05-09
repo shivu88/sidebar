@@ -1,4 +1,5 @@
-    !function(i) {
+// Theia Sticky Sidebar v1.3.0 - https://github.com/WeCodePixels/theia-sticky-sidebar
+            !function(i) {
                 i.fn.theiaStickySidebar = function(t) {
                     function o(t, o) {
                         var a = e(t, o);
@@ -151,4 +152,4 @@
                     t.additionalMarginBottom = parseInt(t.additionalMarginBottom) || 0,
                     o(t, this)
                 }
-            }));
+            }(jQuery);
